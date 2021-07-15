@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="Login Page feature" time="31.137" tests="3" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="webdriver.chrome.driver" value="/Users/rajesh.yemul/.cache/selenium/chromedriver/mac64/91.0.4472.101/chromedriver"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/rajesh.yemul/eServices/CucumberAutomationFramework/target/test-classes:/Users/rajesh.yemul/eServices/CucumberAutomationFramework/target/com.rajesh.CucumberAutomationFramework-0.0.1-SNAPSHOT.jar:/Users/rajesh.yemul/.m2/repository/io/cucumber/cucumber-java/6.9.0/cucumber-java-6.9.0.jar:/Users/rajesh.yemul/.m2/repository/io/cucumber/cucumber-core/6.9.0/cucumber-core-6.9.0.jar:/Users/rajesh.yemul/.m2/repository/io/cucumber/cucumber-gherkin/6.9.0/cucumber-gherkin-6.9.0.jar:/Users/rajesh.yemul/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.9.0/cucumber-gherkin-messages-6.9.0.jar:/Users/rajesh.yemul/.m2/repository/io/cucumber/messages/13.2.0/messages-13.2.0.jar:/Users/rajesh.yemul/.m2/repository/io/cucumber/tag-expressions/3.0.0/tag-expressions-3.0.0.jar:/Users/rajesh.yemul/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/rajesh.yemul/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/rajesh.yemul/.m2/repository/io/cucumber/cucumber-plugin/6.9.0/cucumber-plugin-6.9.0.jar:/Users/rajesh.yemul/.m2/repository/io/cucumber/docstring/6.9.0/docstring-6.9.0.jar:/Users/rajesh.yemul/.m2/repository/io/cucumber/html-formatter/9.0.0/html-formatter-9.0.0.jar:/Users/rajesh.yemul/.m2/repository/io/cucumber/create-meta/2.0.4/create-meta-2.0.4.jar:/Users/rajesh.yemul/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/rajesh.yemul/.m2/repository/io/cucumber/cucumber-junit/6.9.0/cucumber-junit-6.9.0.jar:/Users/rajesh.yemul/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/Users/rajesh.yemul/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/rajesh.yemul/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/rajesh.yemul/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/rajesh.yemul/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/rajesh.yemul/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/rajesh.yemul/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/rajesh.yemul/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/rajesh.yemul/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/rajesh.yemul/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/rajesh.yemul/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/rajesh.yemul/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/rajesh.yemul/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/rajesh.yemul/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/rajesh.yemul/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/rajesh.yemul/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/rajesh.yemul/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/rajesh.yemul/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/rajesh.yemul/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/rajesh.yemul/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/rajesh.yemul/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/rajesh.yemul/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/rajesh.yemul/.m2/repository/io/github/bonigarcia/webdrivermanager/4.3.1/webdrivermanager-4.3.1.jar:/Users/rajesh.yemul/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/rajesh.yemul/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/rajesh.yemul/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/rajesh.yemul/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/rajesh.yemul/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.3/httpclient5-5.0.3.jar:/Users/rajesh.yemul/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.2/httpcore5-5.0.2.jar:/Users/rajesh.yemul/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.2/httpcore5-h2-5.0.2.jar:/Users/rajesh.yemul/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/rajesh.yemul/.m2/repository/org/rauschig/jarchivelib/1.1.0/jarchivelib-1.1.0.jar:/Users/rajesh.yemul/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/Users/rajesh.yemul/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/rajesh.yemul/.m2/repository/tech/grasshopper/extentreports-cucumber6-adapter/2.5.0/extentreports-cucumber6-adapter-2.5.0.jar:/Users/rajesh.yemul/.m2/repository/com/aventstack/extentreports/5.0.5/extentreports-5.0.5.jar:/Users/rajesh.yemul/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/rajesh.yemul/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/rajesh.yemul/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/rajesh.yemul/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/rajesh.yemul/.m2/repository/tech/grasshopper/extent-pdf-report/1.3.0/extent-pdf-report-1.3.0.jar:/Users/rajesh.yemul/.m2/repository/tech/grasshopper/cucumber-pdf-report/1.6.0/cucumber-pdf-report-1.6.0.jar:/Users/rajesh.yemul/.m2/repository/org/knowm/xchart/xchart/3.6.5/xchart-3.6.5.jar:/Users/rajesh.yemul/.m2/repository/de/erichseifert/vectorgraphics2d/VectorGraphics2D/0.13/VectorGraphics2D-0.13.jar:/Users/rajesh.yemul/.m2/repository/de/rototor/pdfbox/graphics2d/0.27/graphics2d-0.27.jar:/Users/rajesh.yemul/.m2/repository/com/madgag/animated-gif-lib/1.4/animated-gif-lib-1.4.jar:/Users/rajesh.yemul/.m2/repository/com/github/vandeseer/easytable/0.7.1/easytable-0.7.1.jar:/Users/rajesh.yemul/.m2/repository/org/yaml/snakeyaml/1.27/snakeyaml-1.27.jar:/Users/rajesh.yemul/.m2/repository/com/aventstack/klov-reporter/5.0.5/klov-reporter-5.0.5.jar:/Users/rajesh.yemul/.m2/repository/org/mongodb/bson/3.6.4/bson-3.6.4.jar:/Users/rajesh.yemul/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/Users/rajesh.yemul/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/Users/rajesh.yemul/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/rajesh.yemul/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/rajesh.yemul/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/rajesh.yemul/.m2/repository/com/github/ralfstuckert/pdfbox-layout/pdfbox2-layout/1.0.0/pdfbox2-layout-1.0.0.jar:/Users/rajesh.yemul/.m2/repository/org/apache/pdfbox/pdfbox/2.0.22/pdfbox-2.0.22.jar:/Users/rajesh.yemul/.m2/repository/org/apache/pdfbox/fontbox/2.0.22/fontbox-2.0.22.jar:/Users/rajesh.yemul/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:"/>
+    <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/rajesh.yemul/eServices/CucumberAutomationFramework/target/surefire/surefirebooter9220090752113494080.jar /Users/rajesh.yemul/eServices/CucumberAutomationFramework/target/surefire 2021-07-15T12-31-06_775-jvmRun1 surefire3710751074089471971tmp surefire_03293078308810142350tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/rajesh.yemul/eServices/CucumberAutomationFramework/target/test-classes:/Users/rajesh.yemul/eServices/CucumberAutomationFramework/target/com.rajesh.CucumberAutomationFramework-0.0.1-SNAPSHOT.jar:/Users/rajesh.yemul/.m2/repository/io/cucumber/cucumber-java/6.9.0/cucumber-java-6.9.0.jar:/Users/rajesh.yemul/.m2/repository/io/cucumber/cucumber-core/6.9.0/cucumber-core-6.9.0.jar:/Users/rajesh.yemul/.m2/repository/io/cucumber/cucumber-gherkin/6.9.0/cucumber-gherkin-6.9.0.jar:/Users/rajesh.yemul/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.9.0/cucumber-gherkin-messages-6.9.0.jar:/Users/rajesh.yemul/.m2/repository/io/cucumber/messages/13.2.0/messages-13.2.0.jar:/Users/rajesh.yemul/.m2/repository/io/cucumber/tag-expressions/3.0.0/tag-expressions-3.0.0.jar:/Users/rajesh.yemul/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/rajesh.yemul/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/rajesh.yemul/.m2/repository/io/cucumber/cucumber-plugin/6.9.0/cucumber-plugin-6.9.0.jar:/Users/rajesh.yemul/.m2/repository/io/cucumber/docstring/6.9.0/docstring-6.9.0.jar:/Users/rajesh.yemul/.m2/repository/io/cucumber/html-formatter/9.0.0/html-formatter-9.0.0.jar:/Users/rajesh.yemul/.m2/repository/io/cucumber/create-meta/2.0.4/create-meta-2.0.4.jar:/Users/rajesh.yemul/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/rajesh.yemul/.m2/repository/io/cucumber/cucumber-junit/6.9.0/cucumber-junit-6.9.0.jar:/Users/rajesh.yemul/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/Users/rajesh.yemul/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/rajesh.yemul/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/rajesh.yemul/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/rajesh.yemul/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/rajesh.yemul/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/rajesh.yemul/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/rajesh.yemul/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/rajesh.yemul/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/rajesh.yemul/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/rajesh.yemul/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/rajesh.yemul/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/rajesh.yemul/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/rajesh.yemul/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/rajesh.yemul/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/rajesh.yemul/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/rajesh.yemul/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/rajesh.yemul/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/rajesh.yemul/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/rajesh.yemul/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/rajesh.yemul/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/rajesh.yemul/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/rajesh.yemul/.m2/repository/io/github/bonigarcia/webdrivermanager/4.3.1/webdrivermanager-4.3.1.jar:/Users/rajesh.yemul/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/rajesh.yemul/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/rajesh.yemul/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/rajesh.yemul/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/rajesh.yemul/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.3/httpclient5-5.0.3.jar:/Users/rajesh.yemul/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.2/httpcore5-5.0.2.jar:/Users/rajesh.yemul/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.2/httpcore5-h2-5.0.2.jar:/Users/rajesh.yemul/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/rajesh.yemul/.m2/repository/org/rauschig/jarchivelib/1.1.0/jarchivelib-1.1.0.jar:/Users/rajesh.yemul/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/Users/rajesh.yemul/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/rajesh.yemul/.m2/repository/tech/grasshopper/extentreports-cucumber6-adapter/2.5.0/extentreports-cucumber6-adapter-2.5.0.jar:/Users/rajesh.yemul/.m2/repository/com/aventstack/extentreports/5.0.5/extentreports-5.0.5.jar:/Users/rajesh.yemul/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/rajesh.yemul/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/rajesh.yemul/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/rajesh.yemul/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/rajesh.yemul/.m2/repository/tech/grasshopper/extent-pdf-report/1.3.0/extent-pdf-report-1.3.0.jar:/Users/rajesh.yemul/.m2/repository/tech/grasshopper/cucumber-pdf-report/1.6.0/cucumber-pdf-report-1.6.0.jar:/Users/rajesh.yemul/.m2/repository/org/knowm/xchart/xchart/3.6.5/xchart-3.6.5.jar:/Users/rajesh.yemul/.m2/repository/de/erichseifert/vectorgraphics2d/VectorGraphics2D/0.13/VectorGraphics2D-0.13.jar:/Users/rajesh.yemul/.m2/repository/de/rototor/pdfbox/graphics2d/0.27/graphics2d-0.27.jar:/Users/rajesh.yemul/.m2/repository/com/madgag/animated-gif-lib/1.4/animated-gif-lib-1.4.jar:/Users/rajesh.yemul/.m2/repository/com/github/vandeseer/easytable/0.7.1/easytable-0.7.1.jar:/Users/rajesh.yemul/.m2/repository/org/yaml/snakeyaml/1.27/snakeyaml-1.27.jar:/Users/rajesh.yemul/.m2/repository/com/aventstack/klov-reporter/5.0.5/klov-reporter-5.0.5.jar:/Users/rajesh.yemul/.m2/repository/org/mongodb/bson/3.6.4/bson-3.6.4.jar:/Users/rajesh.yemul/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/Users/rajesh.yemul/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/Users/rajesh.yemul/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/rajesh.yemul/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/rajesh.yemul/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/rajesh.yemul/.m2/repository/com/github/ralfstuckert/pdfbox-layout/pdfbox2-layout/1.0.0/pdfbox2-layout-1.0.0.jar:/Users/rajesh.yemul/.m2/repository/org/apache/pdfbox/pdfbox/2.0.22/pdfbox-2.0.22.jar:/Users/rajesh.yemul/.m2/repository/org/apache/pdfbox/fontbox/2.0.22/fontbox-2.0.22.jar:/Users/rajesh.yemul/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/rajesh.yemul"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/rajesh.yemul/eServices/CucumberAutomationFramework"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/rajesh.yemul/eServices/CucumberAutomationFramework/target/surefire/surefirebooter9220090752113494080.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_191-b12"/>
+    <property name="user.name" value="rajesh.yemul"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.6"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/rajesh.yemul/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/bb/hqlksys974q_7qzrqc40bkkm4c2tbx/T/"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="user.dir" value="/Users/rajesh.yemul/eServices/CucumberAutomationFramework"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/rajesh.yemul/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="java.ext.dirs" value="/Users/rajesh.yemul/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="Login Page title validation" classname="Login Page feature" time="14.878">
+    <system-out><![CDATA[
+Scenario: Login Page title validation          &amp#27;[90m# src/test/resources/com/rajesh/features/LoginPage.feature:4&amp#27;[0m
+Browser value is :chrome
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on login page&amp#27;[0m                  &amp#27;[90m# com.rajesh.stepDefinitions.LoginPageSteps.user_is_on_login_page()&amp#27;[0m
+Page title is :Login - My Store
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser reads the title of the page&amp#27;[0m        &amp#27;[90m# com.rajesh.stepDefinitions.LoginPageSteps.user_reads_the_title_of_the_page()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mpage title should be &amp#27;[0m&amp#27;[32m&amp#27;[1m"Login - My Store"&amp#27;[0m &amp#27;[90m# com.rajesh.stepDefinitions.LoginPageSteps.page_title_should_be(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 16909
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1626332470.089][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Jul 15, 2021 12:31:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Validate Forgot password link is displayed" classname="Login Page feature" time="14.09">
+    <system-out><![CDATA[
+Scenario: Validate Forgot password link is displayed &amp#27;[90m# src/test/resources/com/rajesh/features/LoginPage.feature:9&amp#27;[0m
+Browser value is :chrome
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on login page&amp#27;[0m                        &amp#27;[90m# com.rajesh.stepDefinitions.LoginPageSteps.user_is_on_login_page()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mforgot password link should be displayed&amp#27;[0m      &amp#27;[90m# com.rajesh.stepDefinitions.LoginPageSteps.forgot_password_link_should_be_displayed()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 47735
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1626332484.229][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Jul 15, 2021 12:31:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Validate with correct credentials user can login to the application" classname="Login Page feature" time="2.169">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#email&quot;}&#10;  (Session info: chrome=91.0.4472.114)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;IN-IT1004.local&apos;, ip: &apos;192.168.1.18&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;1.8.0_191&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/bb/hqlksys974q...}, goog:chromeOptions: {debuggerAddress: localhost:58532}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: be5e28c9617b819b84506ec360f3a77f&#10;*** Element info: {Using=id, value=email}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
+  (Session info: chrome=91.0.4472.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-IT1004.local', ip: '192.168.1.18', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/bb/hqlksys974q...}, goog:chromeOptions: {debuggerAddress: localhost:58532}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: be5e28c9617b819b84506ec360f3a77f
+*** Element info: {Using=id, value=email}
+]]></error>
+    <system-out><![CDATA[
+Scenario: Validate with correct credentials user can login to the application &amp#27;[90m# src/test/resources/com/rajesh/features/LoginPage.feature:13&amp#27;[0m
+Browser value is :chrome
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on login page&amp#27;[0m                                                 &amp#27;[90m# com.rajesh.stepDefinitions.LoginPageSteps.user_is_on_login_page()&amp#27;[0m
+  &amp#27;[31mWhen &amp#27;[0m&amp#27;[31muser enters username &amp#27;[0m&amp#27;[31m&amp#27;[1m"rajesh.yemul@gmail.com"&amp#27;[0m                          &amp#27;[90m# com.rajesh.stepDefinitions.LoginPageSteps.user_enters_username(java.lang.String)&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
+  (Session info: chrome=91.0.4472.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-IT1004.local', ip: '192.168.1.18', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/bb/hqlksys974q...}, goog:chromeOptions: {debuggerAddress: localhost:58532}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: be5e28c9617b819b84506ec360f3a77f
+*** Element info: {Using=id, value=email}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.rajesh.pages.LoginPage.enterUserName(LoginPage.java:27)
+	at com.rajesh.stepDefinitions.LoginPageSteps.user_enters_username(LoginPageSteps.java:40)
+	at ✽.user enters username "rajesh.yemul@gmail.com"(file:///Users/rajesh.yemul/eServices/CucumberAutomationFramework/src/test/resources/com/rajesh/features/LoginPage.feature:15)
+&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser enters password &amp#27;[0m&amp#27;[36m&amp#27;[1m"Test@1234"&amp#27;[0m                                        &amp#27;[90m# com.rajesh.stepDefinitions.LoginPageSteps.user_enters_password(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser clicks on login button&amp#27;[0m                                             &amp#27;[90m# com.rajesh.stepDefinitions.LoginPageSteps.user_clicks_on_login_button()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser reads the title of the page&amp#27;[0m                                       &amp#27;[90m# com.rajesh.stepDefinitions.LoginPageSteps.user_reads_the_title_of_the_page()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mpage title should be &amp#27;[0m&amp#27;[36m&amp#27;[1m"My account - My Store"&amp#27;[0m                            &amp#27;[90m# com.rajesh.stepDefinitions.LoginPageSteps.page_title_should_be(java.lang.String)&amp#27;[0m
+
+    Embedding Validate_with_correct_credentials_user_can_login_to_the_application [image/png 53165 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 15890
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1626332498.318][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Jul 15, 2021 12:31:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>
